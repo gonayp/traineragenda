@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Planillas.Anamnese.AnamneseActivity7">
+
+
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/cadastro_planillas"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/tv_subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/datos_clinicos"
+        android:textAlignment="center"
+        android:layout_below="@id/tv_titulo"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="5dp"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/tv_cuanto_tiempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/colesterol"
+        android:imeOptions="actionNext"
+        android:layout_below="@id/tv_subtitulo" />
+
+    <Spinner
+        android:id="@+id/spinner_colesterol"
+        android:layout_below="@id/tv_cuanto_tiempo"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/si_no_array"
+        android:prompt="@string/hace_ejercicio"/>
+
+
+    <EditText
+        android:id="@+id/et_colesterol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:autofillHints=""
+        android:hint="@string/cual_problema"
+        android:imeActionId="6"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:layout_below="@id/spinner_colesterol" />
+
+    <TextView
+        android:id="@+id/tv_motivacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/cardiaco"
+        android:imeOptions="actionNext"
+        android:layout_below="@id/et_colesterol" />
+
+    <Spinner
+        android:id="@+id/spinner_cardiaca"
+        android:layout_below="@id/tv_motivacion"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/si_no_array"
+        android:prompt="@string/problema_salud"/>
+
+    <EditText
+        android:id="@+id/et_cardiaco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:autofillHints=""
+        android:hint="@string/cual_problema"
+        android:imeActionId="6"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:layout_below="@id/spinner_cardiaca" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_registrar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:onClick="onActionVolver"
+            android:text="@string/btn_voltar"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_registrar1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:onClick="onActionRegistrar"
+            android:text="@string/btn_proximo"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

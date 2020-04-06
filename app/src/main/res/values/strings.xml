@@ -1,0 +1,329 @@
+<resources>
+    <string name="app_name">Personal Runner</string>
+    <string name="app_sub_name">Treinamento personalizado sob demanda</string>
+    <string name="action_settings">Configurações</string>
+
+    <string name="app_chama">Chame um Persoal</string>
+    <string name="app_actividades">Atividades</string>
+    <string name="app_meus">Meus Agendados</string>
+    <string name="app_meus_treinos">Meus Treinos</string>
+    <string name="app_clube">Clube de corrida</string>
+    <string name="app_planilhas">Planilhas</string>
+    <string name="app_avaliacion">Avaliaçaõ Física</string>
+    <string name="app_premium">Conta Premium</string>
+    <string name="app_pagamentos">Pagamentos</string>
+    <string name="app_ayuda">Ajuda</string>
+    <string name="app_configuraciones">Configurações</string>
+    <string name="datos_personales">Dados Pessoas</string>
+    <string name="datos_cref">CREF</string>
+
+    <string name="app_donde">Onde voce quere correr?</string>
+
+    <string name="btn_agendar">Agendar</string>
+    <string name="guardar_agendamento">Agendamento Concluido</string>
+    <string name="hoy">Hoje</string>
+
+    <string name="ganancias">Ganhos</string>
+    <string name="perfil">Perfil</string>
+    <string name="cuenta">Conta</string>
+    <string name="offline">OFFLINE</string>
+    <string name="online">ONLINE</string>
+
+    <!--Perfil-->
+    <string name="treinos">Treinos</string>
+    <string name="anos">Anos</string>
+    <string name="descripcion">Descrisaõ:</string>
+    <string name="de">De:</string>
+    <string name="elogios">Elogios:</string>
+    <string name="comentarios">Comentários:</string>
+
+
+    <!--Ganancias-->
+    <string name="ganhos">Ganhos</string>
+    <string name="nesta_semana">Nesta Semana:</string>
+    <string name="online_">Online</string>
+    <string name="dinero">Dinheiro:</string>
+    <string name="tarjeta">Cartaõ:</string>
+    <string name="transferir">Transferir</string>
+    <string name="tasa">Taixa ou repasse de ganhos:</string>
+
+    <string name="app_agendar_turno">Agendar Turno</string>
+
+
+    <string name="title_activity_menu">Selecione uma atividade</string>
+    <string name="no_tiene_actvidades">Não tem atividades pendentes</string>
+    <string name="actividades_pendientes">Atividades pendentes</string>
+    <string name="title_activity_entrada">Personal Runner</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_nova_conta">Nova Conta</string>
+    <string name="title_activity_editar_conta">Editar Conta</string>
+    <string name="title_activity_nueva_actividad">Configurar actividad</string>
+    <string name="title_localizacion">Localização</string>
+
+    <string name="title_entrar_usuario">Eu sou um cliente</string>
+    <string name="title_entrar_trainer">Eu sou um Personal</string>
+
+
+    <string name="faltan_campos">Faltando algum dos campos para registro</string>
+    <string name="error_registro">Erro ao registrar</string>
+
+
+    <string name="location_permission_denied">Permiso denegado</string>
+    <string name="permission_required_toast">Permiso requerido</string>
+    <string name="permission_rationale_location">Permiso de localizacion</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_nombre">Primero Nome</string>
+    <string name="prompt_apellido">Ultimo Nome</string>
+    <string name="prompt_celular">Celular</string>
+    <string name="prompt_fecha_nacimiento">data de nascimento</string>
+    <string name="emailpassword_status_fmt">Email</string>
+    <string name="prompt_password_1">Senha</string>
+    <string name="prompt_password_2">Confirmar senha</string>
+    <string name="action_sign_in">Inscrever-se</string>
+    <string name="action_crear_cuenta">Crie sua conta aqui</string>
+    <string name="action_register">Criar minha conta</string>
+    <string name="action_salir">Salir</string>
+    <string name="action_entrarr">Entrar</string>
+    <string name="eu_quero">Eu Quero</string>
+    <string name="cargando">Cargando</string>
+    <string name="action_verificar_mail">Verificar mail</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="auth_failed">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_agendar">Agendar Turno</string>
+    <string name="title_activity_trainer_perfil_menu">Trainer Menu</string>
+    <string name="title_activity_treiner_contactivity">TreinerContactivity</string>
+    <string name="title_activity_trainer_datos_personales">TrainerDatosPersonalesActivity</string>
+    <string name="title_activity_trainer_perfil">TrainerPerfilActivity</string>
+    <string name="title_activity_trainer_ganhos">TrainerGanhosActivity</string>
+    <string name="title_activity_compromiso">CompromisoActivity</string>
+    <string name="title_activity_actividades_personal_runner">ActividadesPersonalRunnerActivity
+    </string>
+    <string name="title_activity_actividades_clube">ActividadesClubeActivity</string>
+    <string name="title_activity_actividades_asesoria">ActividadesAsesoriaActivity</string>
+    <string name="title_activity_ver_personal">VerPersonalActivity</string>
+    <string name="title_activity_meus_treinos">MeusTreinosActivity</string>
+    <string name="title_activity_compromiso_terminado">CompromisoTerminadoActivity</string>
+
+    <string name="navigation_drawer_open">drawer open</string>
+    <string name="navigation_drawer_close">drawer close</string>
+
+    <!-- Confeccion de planillas-->
+    <string name="btn_confeccion">Em preparação</string>
+    <string name="btn_acabadas">Finalizadas</string>
+    <string name="btn_nuevo">Nova Planilha</string>
+    <string name="btn_nuevo_etapa">Nova Etapa</string>
+    <string name="btn_finalizar_dia">Terminado</string>
+    <string name="btn_nuevo_d">Novo Dia</string>
+    <string name="btn_guardar">Salvar</string>
+    <string name="btn_borrar">Apagar</string>
+
+
+    <string name="lb_novo_dia">Novo dia para planilha</string>
+    <string name="lb_dia">Dia para planilha</string>
+    <string name="lb_dia_etapa">Etapa</string>
+    <string name="lb_dia_etapa_nueva">Nova Etapa</string>
+    <string name="lb_aptitud">Nível de aptidão:</string>
+    <string name="lb_objetivo">Objetivo:</string>
+    <string name="lb_calculo">Distância e tempo:</string>
+    <string name="lb_modalidad">Modalidade:</string>
+    <string name="lb_periodicidad">Periodização:</string>
+    <string name="lb_periodo">Período:</string>
+    <string name="lb_frecuencia">Frequência semanal:</string>
+    <string name="lb_cooper">T. cooper:</string>
+    <string name="lb_fcmax">fc máx:</string>
+    <string name="lb_peso">Peso:</string>
+    <string name="lb_imc">IMC:</string>
+    <string name="lb_brazo">Braço:</string>
+    <string name="lb_cintura">Cintura:</string>
+    <string name="lb_abdominal">c. abdominal:</string>
+    <string name="lb_quadril">Quadril:</string>
+    <string name="lb_coxa">Coxa:</string>
+    <string name="lb_distancia">Distancia (Km)</string>
+    <string name="lb_treino">Treino</string>
+    <string name="lb_tipo">Tipo</string>
+    <string name="lb_zona">Zona</string>
+    <string name="lb_tempo">Tempo</string>
+    <string name="lb_pace">Pace</string>
+    <string name="lb_duracion">Duração</string>
+    <string name="lb_intensidad">Intensidade</string>
+    <string name="lb_fc">Frecuencia cardiaca</string>
+    <string name="lb_velocidad">Velocidade</string>
+
+    <string name="hace_ejercicio">Prática exercício físico?</string>
+    <string name="ultimo_ejercicio">Quando foi a última vez?</string>
+    <string name="problema_salud">Tem algum problema de saúde?</string>
+    <string name="cual_problema">Qual?</string>
+    <string name="fecha_inicial">Data de início</string>
+    <string name="fecha_final">Data final</string>
+
+
+    <!-- Anamnese -->
+    <string name="lb_nombre">Nome:</string>
+    <string name="lb_edad">Edade:</string>
+    <string name="quien_problema">Quem?</string>
+    <string name="cadastro_planillas">Cadastro a Minhas Planilhas</string>
+    <string name="consentimiento">CONSENTIMENTO PARA PRESCRIÇÃO</string>
+    <string name="texto_consentimiento">Eu, abaixo assinalado, declaro para os devidos fins que as respostas prestadas aqui são verdadeiras e poderão ser utilizadas como referência na prescrição de atividades físicas.</string>
+    <string name="consentimiento_acepto">Concordo em fazer parte do programa de planejamento e prescrição de treino do app Personal Runner.</string>
+    <string name="sexo">Sexo</string>
+    <string name="fecha_nacimiento">Data de nascimento</string>
+    <string name="peso">Peso</string>
+    <string name="altura">Altura</string>
+    <string name="factores">Fatores relacionados ao treinamento de corrida</string>
+    <string name="cuanto_tiempo">Há quanto tempo você pratica corrida de rua ou indoor (esteira)? </string>
+    <string name="cantidad_meses">Com base na questão anterior, indique a quantidade de meses ou anos. </string>
+    <string name="motivacion">Qual sua principal motivação para a prática da corrida?</string>
+
+    <string name="cuantas_veces">Relativamente à corrida, você treina quantas vezes por semana? </string>
+    <string name="distancia_preferida">Qual sua distância preferida nas provas de corrida de rua?</string>
+    <string name="ritmo_medio">Qual seu ritmo médio (pace em min/km) de corrida?</string>
+    <string name="otro_lugar">Em qual lugar você pretende treinar?</string>
+    <string name="turno">Em que turno você pretende treinar? </string>
+    <string name="datos_clinicos">Dados Clínicos e Histórico Familiar </string>
+    <string name="colesterol">Possui colesterol, triglicérides ou glicose altas?</string>
+    <string name="cardiaco">Possui alguma alteração cardíaca? </string>
+    <string name="problemas_cardiacos">Algum histórico na família com problemas cardíacos? </string>
+
+    <string name="hirtenso">É hipertenso?</string>
+    <string name="diabetico">É diabético? </string>
+    <string name="pulmones">Tem problemas pulmonares? </string>
+    <string name="medicamentos">Toma algum tipo de medicamento? </string>
+    <string name="cirugia">Fez alguma cirurgia? </string>
+    <string name="dolores">Apresenta dores na coluna, articulações ou dores musculares? Possui algum problema ortopédico diagnosticado? </string>
+    <string name="recomendacion_medica">Tem alguma recomendação médica para prática de atividade física? </string>
+    <string name="btn_proximo">Próximo</string>
+    <string name="btn_voltar">Voltar</string>
+    <string name="btn_finalizar">Finalizar</string>
+    <string-array name="array_aptitud">
+        <item>Atleta amador</item>
+        <item>Otro</item>
+    </string-array>
+    <string-array name="array_modalidad">
+        <item>Corrida e funcional</item>
+        <item>Corrida</item>
+        <item>Funcional</item>
+        <item>Otro</item>
+    </string-array>
+
+
+    <string-array name="array_periodicidad">
+        <item>3 Semanas</item>
+        <item>2 Semanas</item>
+        <item>4 Semanas</item>
+        <item>Otro</item>
+    </string-array>
+    <string-array name="array_imc">
+        <item>Abaixo do peso</item>
+        <item>Peso ideal</item>
+        <item>Levemente acima do peso</item>
+        <item>Obesisdade I</item>
+        <item>Obesisdade II</item>
+        <item>Obesisdade II</item>
+    </string-array>
+
+
+    <string-array name="si_no_array">
+        <item>Sim</item>
+        <item>Nou</item>
+    </string-array>
+    <string-array name="hace_cuanto_array">
+        <item>hoje mesmo</item>
+        <item>ontem</item>
+        <item>Há 3 dias</item>
+        <item>Há 4 dias</item>
+        <item>Há 5 dias</item>
+        <item>Há 6 dias</item>
+        <item>mais de 1 semana atrás</item>
+        <item>mais de 2 semana atrás</item>
+    </string-array>
+
+    <string-array name="cuanto_tiempo_array">
+        <item>Nunca pratiquei</item>
+        <item>Até 1 ano</item>
+        <item>1 ano ou mais</item>
+    </string-array>
+
+    <string-array name="motivacion_corrida_array">
+        <item>Melhora do condicionamento físico</item>
+        <item>Prazer/ bem-estar</item>
+        <item>Busca pelo rendimento esportivo</item>
+        <item>Participação em competições</item>
+        <item>Emagrecimento</item>
+        <item>Saúde e qualidade de vida</item>
+    </string-array>
+
+    <string-array name="cuanto_x_semana_array">
+        <item>1 – 2 treinos por semana</item>
+        <item>3 treinos por semana</item>
+        <item>4 treinos por semana</item>
+        <item>5 treinos por semana</item>
+        <item>6 treinos por semana</item>
+        <item>7 treinos por semana</item>
+        <item>Acima de 7 treinos por semana</item>
+    </string-array>
+
+    <string-array name="array_tipo_etapa">
+        <item>AQUECIMENTO</item>
+        <item>CORRIDA</item>
+        <item>DESAQUECIMENTO</item>
+        <item>DESCANSO</item>
+        <item>RECUPERAÇÃO</item>
+    </string-array>
+
+    <string-array name="array_tipo">
+        <item>Fartlek</item>
+        <item>Intervalado</item>
+        <item>Regenerativo</item>
+        <item>Rodagem</item>
+        <item>Performance</item>
+        <item>Pirâmide</item>
+        <item>Teste de cooper</item>
+        <item>Tiro</item>
+        <item>Quebrado</item>
+        <item>Descanso</item>
+    </string-array>
+
+    <string-array name="array_zona">
+        <item>Z1: Cadência L (Trote Ou Leve)</item>
+        <item>Z2: Cadência M (Moderada)</item>
+        <item>Z3: Cadência M-2 (Limiar)</item>
+        <item>Z4: Cadência R (Rápida)</item>
+        <item>Z5: Cadência R-2 (Repetições Intervaladas) </item>
+        <item>Z6: Cadência EX (Exaustiva ou Potência)</item>
+    </string-array>
+
+    <string-array name="distancia_corrida_array">
+        <item>Menos de 5 Km</item>
+        <item>5 km</item>
+        <item>10 km</item>
+        <item>21 km</item>
+        <item>42 km </item>
+        <item>Ultramaratona</item>
+    </string-array>
+
+    <string-array name="lugar_corrida_array">
+        <item>Outdoor (ao ar livre na rua ou no parque) </item>
+        <item>Indoor (academia) </item>
+    </string-array>
+
+    <string-array name="turno_corrida_array">
+        <item>Manhã</item>
+        <item>Tarde</item>
+        <item>Noite</item>
+    </string-array>
+
+
+</resources>

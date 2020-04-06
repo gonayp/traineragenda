@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Compromisos.CompromisoActivity">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_volver7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:onClick="onActionVolver"
+        app:fabCustomSize="40dp"
+        app:fabSize="normal"
+        app:srcCompat="@mipmap/baseline_keyboard_arrow_left_black_18dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_ver_mapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:onClick="onActionVerEnMapa"
+        app:fabCustomSize="40dp"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/marcador_estandar" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_borrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:onClick="onActionBorrar"
+        app:fabCustomSize="40dp"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/baseline_delete_forever_black_18dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_terminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:onClick="onActionTerminar"
+        android:visibility="gone"
+        app:fabCustomSize="80dp"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/baseline_check_box_black_18dp" />
+
+    <Button
+        android:id="@+id/btn_terminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="onActionTerminar"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="terminar"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <include layout="@layout/content_compromiso" />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Compromisos.CompromisoActivity"
+    tools:showIn="@layout/activity_compromiso"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="8dp">
+
+    <RelativeLayout
+        android:id="@+id/recuadro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/buttonshapemenu"
+        android:orientation="vertical">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_ver_entrenador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_fecha"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5sp"
+            android:layout_marginRight="5dp"
+            android:layout_toEndOf="@+id/tv_entrenador"
+            app:fabCustomSize="40dp"
+            app:fabSize="normal"
+            app:srcCompat="@android:drawable/ic_menu_search" />
+
+        <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="false"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp" />
+        <!-- -->
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@android:style/Widget.Holo.Light.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_fecha"
+            android:layout_marginStart="73dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="29dp"
+            android:layout_toStartOf="@+id/iv_avatar" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Nombre"
+            android:textAppearance="?attr/textAppearanceListItem"
+            tools:text="Alexander Pierrot" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:layout_alignLeft="@+id/tv_title"
+            android:text="Descrpcion"
+            tools:text="CEO"
+            tools:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_description"
+            android:layout_alignLeft="@+id/tv_title"
+            android:layout_marginBottom="10dp"
+            android:text="Fecha"
+            tools:text="Fecha" />
+
+        <TextView
+            android:id="@+id/tv_entrenador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_fecha"
+            android:layout_alignLeft="@+id/tv_title"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="10dp"
+            android:text="Etrenadorn"
+            android:textSize="20sp"
+            tools:text="Entrenador" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recuadro"
+        android:layout_marginTop="25dp"
+        android:text="CHAT" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_view"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textChat"
+        android:layout_above="@+id/bottom"
+        />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="#fff"
+    android:id="@+id/bottom"
+    android:layout_alignParentBottom="true">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_send"
+        android:layout_toLeftOf="@+id/btn_send"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:hint="Escreva sua mensagem aqui  "
+        />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/btn_send"
+        android:background="@drawable/ic_action_send"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

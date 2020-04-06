@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/listPreferredItemHeight"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Tipo"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <TextView
+            android:id="@+id/tv_duracion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:text="Duracion" />
+
+    <!--
+
+        <TextView
+        android:id="@+id/lb_treino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_alignLeft="@+id/tv_title"
+        android:text="Duracion" />
+        <TextView
+            android:id="@+id/tv_duracion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:text="Duracion" />
+
+        <TextView
+            android:id="@+id/lb_tiempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_duracion"
+            android:layout_alignLeft="@+id/lb_treino"
+            android:text="intensidad " />
+-->
+        <TextView
+            android:id="@+id/tv_intensidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="intensidad " />
+<!--
+        <TextView
+            android:id="@+id/lb_fc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_intensidad"
+            android:layout_alignLeft="@+id/lb_treino"
+            android:text="@string/lb_fc" />
+
+        <TextView
+            android:id="@+id/tv_fc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_intensidad"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:text="FC" />
+
+        <TextView
+            android:id="@+id/lb_velocidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_fc"
+            android:layout_alignLeft="@+id/lb_treino"
+            android:layout_marginBottom="10dp"
+            android:text="@string/lb_velocidad" />
+
+        <TextView
+            android:id="@+id/tv_velocidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_fc"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/lb_velocidad" />
+
+-->
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

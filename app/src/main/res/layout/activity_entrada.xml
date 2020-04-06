@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EntradaActivity">
+
+    <ImageView
+        android:id="@+id/iv_principal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/inicio4" />
+<!--
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Personal Runner"
+        android:layout_centerInParent="true"
+        android:paddingTop="100dp"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/tv_subtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/tv_titulo"
+        android:text="Treinamento personalizado sob demanda"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:typeface="normal" />-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp">
+
+                <Button
+                    android:id="@+id/fab_reg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="onActionRegister"
+                    android:shadowColor="#08BF70"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/action_register"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="10dp"
+                    tools:layout_editor_absoluteY="121dp"
+                    android:visibility="visible"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp">
+
+                <Button
+                    android:id="@+id/fab_log"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="onActionLogin"
+                    android:shadowColor="#08BF70"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/action_entrarr"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="10dp"
+                    tools:layout_editor_absoluteY="121dp"
+                    android:visibility="visible"/>
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

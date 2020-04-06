@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Planillas.Anamnese.AnamneseActivity5">
+
+
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastro_planillas"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/tv_subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/factores"
+        android:textAlignment="center"
+        android:layout_below="@id/tv_titulo"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="5dp"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/tv_cuanto_tiempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/cuantas_veces"
+        android:imeOptions="actionNext"
+        android:layout_below="@id/tv_subtitulo" />
+
+    <Spinner
+        android:id="@+id/spinner_cuanto_x_semana"
+        android:layout_below="@id/tv_cuanto_tiempo"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/cuanto_x_semana_array"/>
+
+
+
+    <TextView
+        android:id="@+id/tv_cantidad_tiempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/ritmo_medio"
+        android:imeOptions="actionNext"
+        android:layout_below="@id/tv_cuanto_tiempo"/>
+
+    <EditText
+        android:id="@+id/et_ritmo_medio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:autofillHints=""
+        android:imeActionId="6"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:layout_below="@id/tv_cantidad_tiempo" />
+
+    <TextView
+        android:id="@+id/tv_motivacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/distancia_preferida"
+        android:imeOptions="actionNext"
+        android:layout_below="@id/tv_cantidad_tiempo" />
+
+    <Spinner
+        android:id="@+id/spinner_preferida"
+        android:layout_below="@id/tv_motivacion"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/distancia_corrida_array"
+        android:prompt="@string/problema_salud"/>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_registrar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:onClick="onActionVolver"
+            android:text="@string/btn_voltar"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_registrar1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:onClick="onActionRegistrar"
+            android:text="@string/btn_proximo"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".CompromisoTerminadoActivity">
+
+<android.support.design.widget.FloatingActionButton
+    android:id="@+id/fab_volver7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:onClick="onActionVolver"
+    app:fabCustomSize="40dp"
+    app:fabSize="normal"
+    app:srcCompat="@mipmap/baseline_keyboard_arrow_left_black_18dp" />
+
+<android.support.design.widget.FloatingActionButton
+    android:id="@+id/fab_ver_mapa"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="53dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="50dp"
+    android:onClick="onActionVerEnMapa"
+    app:fabCustomSize="40dp"
+    app:fabSize="normal"
+    app:srcCompat="@drawable/marcador_estandar" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_borrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:onClick="onActionGuardar"
+        app:fabSize="auto"
+        app:srcCompat="@android:drawable/ic_menu_save" />
+
+<include layout="@layout/content_compromiso_terminado" />
+
+</android.support.design.widget.CoordinatorLayout>

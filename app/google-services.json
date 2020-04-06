@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "535777481524",
+    "firebase_url": "https://traineragenda.firebaseio.com",
+    "project_id": "traineragenda",
+    "storage_bucket": "traineragenda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535777481524:android:c8e188cbae9528ee",
+        "android_client_info": {
+          "package_name": "com.traineragenda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535777481524-q3qr4670cuup47ben26s8qgnhso9s4cv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.traineragenda",
+            "certificate_hash": "8d9cc0ac9c5ea572b5a8b720a28456da3a2fceb7"
+          }
+        },
+        {
+          "client_id": "535777481524-9iklfgj61r6lo1qbo54covndtj5lcshh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": ""
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535777481524-9iklfgj61r6lo1qbo54covndtj5lcshh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

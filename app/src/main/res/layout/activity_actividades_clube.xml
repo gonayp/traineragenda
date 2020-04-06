@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActividadesClubeActivity">
+
+    <include layout="@layout/content_actividades_clube" />
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_volver8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onActionVolver"
+        app:fabCustomSize="40dp"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/baseline_keyboard_arrow_left_white_18" />
+
+
+    <Button
+        android:id="@+id/emailSignInButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="@string/eu_quero"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</android.support.design.widget.CoordinatorLayout>

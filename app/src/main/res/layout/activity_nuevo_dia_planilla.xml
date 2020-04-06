@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiasPlanilla.NuevoDiaPlanillaActivity">
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onActionVolver"
+        app:fabCustomSize="40dp"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/baseline_keyboard_arrow_left_white_18" />
+
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="55dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/lb_novo_dia"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:typeface="normal" />
+
+
+    <LinearLayout
+        android:id="@+id/l_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_titulo"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <AutoCompleteTextView
+            android:id="@+id/tv_fecha"
+            android:layout_width="0dp"
+            android:focusable="false"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:text="Fecha"
+            android:textSize="20sp"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <AutoCompleteTextView
+            android:id="@+id/tv_distancia"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="@string/lb_distancia"
+            android:inputType="number"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:imeOptions="actionNext"/>
+
+    </LinearLayout>
+
+
+    <AutoCompleteTextView
+        android:id="@+id/tv_treino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:hint="@string/lb_treino"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:layout_below="@id/l_btn" />
+
+
+    <TextView
+        android:id="@+id/tv_tipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:inputType="textCapWords"
+        android:text="@string/lb_tipo"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_below="@id/tv_treino" />
+
+    <Spinner
+        android:id="@+id/spinner_tipo"
+        android:layout_below="@id/tv_tipo"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/array_tipo"
+        android:prompt="@string/hace_ejercicio"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/tv_tiempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:hint="@string/lb_tempo"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:imeOptions="actionUnspecified"
+        android:layout_below="@id/spinner_tipo" />
+
+    <AutoCompleteTextView
+        android:id="@+id/tv_pace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="@string/lb_pace"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:imeOptions="actionUnspecified"
+        android:layout_below="@id/tv_tiempo" />
+
+
+
+    <Button
+        android:id="@+id/btn_guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:onClick="onActionGuardar"
+        android:shadowRadius="5"
+        android:text="@string/btn_guardar"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

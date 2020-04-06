@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".personal.TrainerMenuActivity">
+
+    <!--<android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:visibility="visible">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/background_dark"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>-->
+
+    <include layout="@layout/content_main_map" />
+
+
+    <!--<ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="30dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/editbox_background_normal" />
+
+    <AutoCompleteTextView
+        android:id="@+id/input"
+        style="@android:style/Widget.Holo.Light.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/colorAccent"
+        android:hint="@string/app_donde"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="50dp"
+        android:singleLine="true"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Title"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="70dp" />-->
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/fab_margin"
+        android:onClick="onActionPerfil"
+        app:srcCompat="@drawable/baseline_person_outline_black_18dp" />
+
+    <Button
+        android:id="@+id/btn_estado"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:onClick="onActionCambiarEstado"
+        android:text="@string/offline"
+        android:textColor="@color/colorPrimary" />
+
+    <!--<android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_my_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="80dp"
+        android:visibility="visible"
+        app:backgroundTint="#FFFFFFFF"
+        app:srcCompat="@drawable/baseline_person_pin_circle_black_18dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_cancel_marckers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:visibility="visible"
+        app:backgroundTint="#FFFFFFFF"
+        app:srcCompat="@drawable/ic_dialog_close_light" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_puntos_fijos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:visibility="gone"
+        app:backgroundTint="#FFFFFFFF"
+        app:srcCompat="@drawable/baseline_transfer_within_a_station_black_18dp" />-->
+
+
+</android.support.design.widget.CoordinatorLayout>

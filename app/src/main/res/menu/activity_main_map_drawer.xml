@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_chame"
+            android:icon="@drawable/baseline_contact_phone_black_18dp"
+            android:title="@string/app_chama" />
+        <item
+            android:id="@+id/nav_actividades"
+            android:icon="@drawable/lead_photo_3"
+            android:title="@string/app_actividades" />
+        <item
+            android:id="@+id/nav_meus"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/app_meus" />
+        <item
+            android:id="@+id/nav_treinos"
+            android:icon="@drawable/lead_photo_1"
+            android:title="@string/app_meus_treinos" />
+    </group>
+    <item>
+        <menu>
+            <item
+                android:id="@+id/nav_personal"
+                android:icon="@drawable/lead_photo_4"
+                android:title="@string/app_name"
+                android:visible="false" />
+            <item
+                android:id="@+id/nav_clube"
+                android:icon="@drawable/baseline_group_black_18dp"
+                android:title="@string/app_clube"
+                android:visible="false" />
+            <item
+                android:id="@+id/nav_planillas"
+                android:icon="@drawable/lead_photo_2"
+                android:title="@string/app_planilhas"
+                android:visible="false" />
+            <item
+                android:id="@+id/nav_avaliaciones"
+                android:icon="@drawable/baseline_how_to_reg_black_18dp"
+                android:title="@string/app_avaliacion"
+                android:visible="false" />
+            <item
+                android:id="@+id/nav_premium"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="@string/app_premium" />
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pagamentoss"
+            android:icon="@drawable/baseline_transfer_within_a_station_black_18dp"
+            android:title="@string/app_pagamentos" />
+        <item
+            android:id="@+id/nav_ayuda"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="@string/app_ayuda" />
+        <item
+            android:id="@+id/nav_cofiguraciones"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/app_configuraciones" />
+        <item
+            android:id="@+id/nav_salir"
+            android:icon="@drawable/ic_dialog_close_light"
+            android:title="@string/action_salir" />
+    </group>
+
+</menu>

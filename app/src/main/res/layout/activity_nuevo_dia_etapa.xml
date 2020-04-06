@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiasPlanilla.NuevoDiaPlanillaActivity">
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onActionVolver"
+        app:fabCustomSize="40dp"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/baseline_keyboard_arrow_left_white_18" />
+
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="55dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/lb_dia_etapa_nueva"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:typeface="normal" />
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/tv_tipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:inputType="textCapWords"
+        android:text="@string/lb_tipo"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_below="@id/tv_titulo" />
+
+    <Spinner
+        android:id="@+id/spinner_tipo"
+        android:layout_below="@id/tv_tipo"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/array_tipo_etapa"
+        android:prompt="@string/hace_ejercicio"/>
+
+    <TextView
+        android:id="@+id/tv_zona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:inputType="textCapWords"
+        android:text="@string/lb_zona"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_below="@id/spinner_tipo" />
+
+    <Spinner
+        android:id="@+id/spinner_zona"
+        android:layout_below="@id/tv_zona"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/array_zona"
+        android:prompt="@string/hace_ejercicio"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/tv_tiempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:hint="@string/lb_duracion"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:imeOptions="actionUnspecified"
+        android:layout_below="@id/spinner_zona" />
+
+    <AutoCompleteTextView
+        android:id="@+id/tv_pace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="@string/lb_pace"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:imeOptions="actionUnspecified"
+        android:layout_below="@id/tv_tiempo" />
+<!--
+    <AutoCompleteTextView
+        android:id="@+id/tv_fc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="@string/lb_fc"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:imeOptions="actionUnspecified"
+        android:layout_below="@id/tv_pace" />
+
+    <AutoCompleteTextView
+        android:id="@+id/tv_velocidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="@string/lb_velocidad"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:imeOptions="actionUnspecified"
+        android:layout_below="@id/tv_fc" />
+
+
+-->
+
+
+    <LinearLayout
+        android:id="@+id/l_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_registrar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:onClick="onActionBorrar"
+            android:text="@string/btn_borrar"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_guardar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:onClick="onActionGuardar"
+            android:shadowRadius="5"
+            android:text="@string/btn_guardar"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

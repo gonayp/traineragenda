@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".personal.TreinerContactivity"
+    tools:showIn="@layout/activity_treiner_contactivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150sp"
+        android:layout_marginStart="25sp"
+        app:srcCompat="@drawable/lead_photo_4" />
+
+    <TextView
+        android:id="@+id/fieldNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="150sp"
+        android:text="Nome do Personal"
+        android:textSize="30sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250sp"
+        android:layout_marginStart="25sp"
+        app:srcCompat="@drawable/baseline_check_box_outline_blank_black_18dp" />
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="250sp"
+        android:text="@string/datos_cref"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="300sp"
+        android:onClick="onActionDatosPersonales"
+        app:srcCompat="@drawable/baseline_check_box_black_18dp" />
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="300sp"
+        android:onClick="onActionDatosPersonales"
+        android:text="@string/datos_personales"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="400sp"
+        android:onClick="onActionDatosPersonales"
+        android:text="Raio de trabalho (km)"
+        android:textSize="20sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="211dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="90sp"
+        android:layout_marginTop="430sp"
+        android:max="15000"
+        android:min="5000"
+        android:progressTint="@color/colorPrimary"
+        android:theme="@style/SeekBarColor"
+        android:progress="500"/>
+
+    <TextView
+        android:id="@+id/tv_kilometros"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="460sp"
+        android:textAlignment="center"
+        android:onClick="onActionDatosPersonales"
+        android:text=""
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="25sp"
+        android:layout_marginBottom="20sp"
+        android:onClick="onActionSalir"
+        app:srcCompat="@drawable/ic_dialog_close_light" />
+
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="100sp"
+        android:layout_marginBottom="20sp"
+        android:onClick="onActionSalir"
+        android:text="@string/action_salir"
+        android:textSize="20sp" />
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
